@@ -6,7 +6,7 @@ This project demonstrates how to create a SOAP API using ASP.NET Core.
 
 Define the `Blog` class with data members:
 
-```csharp
+```csharps
 using System.Runtime.Serialization;
 
 namespace SoapApi.Features;
@@ -144,6 +144,22 @@ dotnet run
 ### Step 6: Test the Service
 
 Navigate to `http://localhost:5000/Blog.asmx` to access the SOAP API.
+
+### Step 7: Add Service Reference
+
+To add a service reference named `BlogServiceReference` for an `.asmx` service in Visual Studio, follow these steps:
+
+1. **Open Solution Explorer**: Right-click on your project name.
+2. **Add Service Reference**:
+   - Select "Add" > "Service Reference..."
+3. **Enter Service URL**:
+   - In the Address field, enter the URL of your `.asmx` service (e.g., `http://localhost:5000/Blog.asmx`) and click "Go".
+4. **Configure Namespace**:
+   - In the Namespace field, enter `BlogServiceReference`.
+5. **Finish**:
+   - Click "OK" to add the service reference.
+
+Now, you can use `BlogServiceReference` to interact with the SOAP service in your code.
 
 ## References
 
