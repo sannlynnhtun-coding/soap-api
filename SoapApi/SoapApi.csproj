@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="SoapCore" Version="1.1.0.49" />
+  </ItemGroup>
+
 </Project>
