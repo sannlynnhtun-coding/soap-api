@@ -2,6 +2,18 @@
 
 This project demonstrates how to create a SOAP API using ASP.NET Core.
 
+Command for NuGet Package Manager Console:
+
+```
+PM> Install-Package SoapCore
+```
+
+The command for dotnet CLI (Command Line Interface):
+
+```
+dotnet add package SoapCore
+```
+
 ### Step 1: Define Data Contracts
 
 Define the `Blog` class with data members:
